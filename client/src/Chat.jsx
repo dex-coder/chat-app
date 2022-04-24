@@ -42,7 +42,7 @@ const Chat = ({ socket, username, room }) => {
             return (
               <div
                 className="message"
-                id={username === messageContent.author ? "you" : "other"}
+                id={username === messageContent.author ? "other" : "you"}
                 //key={messageContent.time}
               >
                 <div>
